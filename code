@@ -1,0 +1,37 @@
+[dohtml]
+<link href="https://files.jcink.net/uploads2/stellascodingstuff/auto_tracker/guardian_autot_tracker_2.css" rel="stylesheet">
+<script src="https://files.jcink.net/uploads2/fizzyelf/sharedresources/autoTrackerPostTemplate.js"></script>
+
+<center>
+<div id="MEMBERBGROUP">
+<div class="BGhor">
+<div class="BG2">
+<h1>CHARACTER NAME's tracker</h1>
+<div class="BG3">
+
+<div style="width: 100%; text-align: justify;">
+<script>
+TrackParticipatedThreads({
+ characterName: "USERNAME",
+
+ includeCategoryIds: ['4', '6', '7', '8', '9', '10'],
+ ignoreForumIds: ['21', '25', '33', '34', '35', '57', '58', '59', '60', '62', '69', '71', '72', '74', '75', '81', '114', '117', '118', '127', '129', '145', '156', '157', '175', '180', '183', '184', '186', '187', '188', '189', '190', '191', '201', '205', '207', '209', '210'],
+
+
+ altForumNames: ['Communications'],
+ altForumIds: ['63'],
+ altSectionTitle: "Texts and Calls",
+
+archiveForumNames: ['Archives'],
+archiveForumIds: ['64', '65', '99', '166'],
+lockedMacroIdentifier: ".locked",
+
+floodControl: 5,
+});
+</script>
+
+</div>
+</div>
+</div>
+</center>
+[/dohtml]
